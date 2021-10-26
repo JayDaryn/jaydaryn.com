@@ -13,7 +13,7 @@ const App = () => {
     <div className="card">
       <div className="header">
         <div className="logo">
-          <p>BLOCKCHAIN | NFTs | CRYPTO | DECENTRAIZED APPS <br/> WEB &amp; MOBILE DEV <br/> CONSULTING</p>
+          <p>BLOCKCHAIN | NFTs | CRYPTO | DECENTRAIZED APPS <br/> WEB &amp; MOBILE DEVELOPMENT <br/> CONSULTING</p>
         </div>
         <div className="social">
           <a href="https://facebook.com" title="Facebook" target="_blank" rel="noopener noreferrer">
@@ -29,18 +29,15 @@ const App = () => {
       </div>
       <div className="content">
         <div className="title-holder">
-        <div className="underdev">
-          <a href="https://youtu.be/KIrLNcIa37o" target="_blank" rel="noopener noreferrer">Website Under Development...</a>
-        </div>
           <h1> <img src={logo}/> </h1>
           <p> &#127752; We Are Still Waiting For Inspiration To Hit Our Creative Team &#128064; </p>
         </div>
         <div>
           <a href="mailto:sales@jaydaryn.com">
-            <button className="cta"> Hit us up &#128012;&#128233; </button>
+            <div className="cta"> Hit us up &#128012;&#128233; </div>
           </a>
           <a href="https://drive.google.com/file/d/1h_CubiU0YMjF886TqnYRjDHx3p7aVJES/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-          <button  className="cta" style={{background:'#BAE8E8'}}> Explore Our Services &#128126;</button>
+          <div  className="cta" style={{background:'#BAE8E8',color:'#272343'}}> Explore Our Services &#128126;</div>
           </a>
         </div>
         
