@@ -6,7 +6,6 @@
   background: #0F1A22;
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
 }
 
 .header {
@@ -14,15 +13,14 @@
   padding: 48px;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
+  color: #f0fbff;
 }
 
 .header p {
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 0.7em;
+  line-height: 1.5;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.75);
-  transition: box-shadow 0.3s cubic-bezier(0.25, 0.25, 0.315, 1.35), transform 0.1s linear;
+  color: #f0fbff;
 }
 
 
@@ -39,6 +37,7 @@
 
 .header .chat a:hover {
   opacity: 0.75;
+  color: #f0fbff;
 }
 
 
@@ -51,14 +50,13 @@
   align-items: center;
 }
 
-.content .title-holder {
-  color: #009ff6;
+.title-holder {
   text-align: center;
 }
 
 
 
-.content .title-holder p {
+.title-holder p {
   font-size: 22px;
   padding-bottom: 20px;
   line-height: 28px;
@@ -66,7 +64,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .content .title-holder {
+  .title-holder {
     max-width: 80%;
   }
 }
@@ -102,7 +100,7 @@
   padding: 38px;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #f0fbff;
   font-size: 14px;
   font-weight: 500;
   text-align: center;
@@ -121,4 +119,19 @@
 
 .social a:hover {
   opacity: 0.75;
+  color: #f0fbff;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  padding: 100;
+  flex-direction: row;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .section {
+    flex-direction: column;
+  }
 }
