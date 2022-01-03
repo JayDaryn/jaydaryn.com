@@ -5,7 +5,6 @@ import  logo  from '../assets/hdlogo.png'
 const Home = () => (
 <>
 	<div className="title-holder">
-    <p style={{fontSize:'1em'}}> WEBSITE UNDER DEVELOPMENT &#127939;&#9203; </p>
       <div> 
         <img src={logo} alt="logo" style={{width:'90%', maxWidth:'650px'}}/> 
     	</div>
