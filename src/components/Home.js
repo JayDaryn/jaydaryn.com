@@ -13,7 +13,7 @@ const Home = () => (
           
   </div>
   <div style={{display:"flex"}}>
-    <a href="https://drive.google.com/file/d/1h_CubiU0YMjF886TqnYRjDHx3p7aVJES/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+    <a href="https://jaydaryn.notion.site/Our-Work-92802a30096a44749f19349121259408" target="_blank" rel="noopener noreferrer">
       <div  className="button1"><span> Look Around </span>&nbsp; &#128064;</div>
     </a>
     <Link to="AndThisNFTProvesIt">
