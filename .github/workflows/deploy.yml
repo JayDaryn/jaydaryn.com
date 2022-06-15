@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
+      - run: npm install
       - run: npm ci
       - run: npm run build
         env:
