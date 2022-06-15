@@ -8,9 +8,10 @@ const Home = () => (
       <div> 
         <img src={logo} alt="logo" style={{width:'90%', maxWidth:'650px'}}/> 
     	</div>
+    <p style={{maxWidth:850, textAlign:'center', fontSize:'1.4em', lineHeight:'1.3', fontFamily:'monospace'}}>Jaydaryn is a web3.0 initiative on a mission to advocate the power and importance of decentralization through blockchain technology in order to reach a future that prioritizes privacy, trust and data ownership on the internet, instead of being tracked and dependent on tech giants.</p>
     <hr width="220px"/>
-    <p> Make ideas happen <span className='rocket'> &#128640;</span> </p>
-          
+    <p style={{maxWidth:850, textAlign:'center', paddingTop:10}}> Make ideas happen <span className='rocket'> &#128640;</span> </p>
+   
   </div>
   <div style={{display:"flex"}}>
     <a href="https://jaydaryn.notion.site/WhitePaper-2ac264b8e8184d8f8e7cfb78ff590cf4" target="_blank" rel="noopener noreferrer">
