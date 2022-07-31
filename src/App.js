@@ -15,7 +15,8 @@ import {
   FaYoutube,
   FaGithub,
   FaCookieBite,
-  FaArrowLeft
+  FaArrowLeft,
+  FaVideo
 } from 'react-icons/fa'
 import { Button } from 'semantic-ui-react'
 import  logo  from './assets/hdlogo.png'
@@ -40,26 +41,24 @@ const App = () => {
       <div className="header">
         <div>
           {location.pathname === '/' ? (
-            <p>BLOCKCHAIN | NFTs | CRYPTO | DECENTRALIZED APPS <br/> WEB &amp; MOBILE DEVELOPMENT <br/> CONSULTING</p>
+            <p>WEB3.0 | BLOCKCHAIN | NFTs | CRYPTO | DECENTRALIZATION | METAVERSE <br/>EVENTS | WORKSHOPS | MEETUPS | HACKATHONS | DUBAI<br/>INITIATIVE | COMMUNITY | HACKERSPACE<br/>CONSULTING | ADVISORS</p>
           ) : (
             <div style={{cursor:'pointer'}} onClick={()=>{navigate("/")}}>  <FaArrowLeft style={{margin:'9px'}} /> <img src={logo} alt="logo" style={{width:'150px'}}/> </div>
           )}
           
         </div>
         <div>
-          <p>Let's Chat:</p>
+          <p style={{ fontSize:'1.1em'}}>Hey 👋 &nbsp;Let's chat:</p>
           <div className="chat">
-            <a href="https://wa.me/+96171220083" title="Whatsapp" target="_blank" rel="noopener noreferrer">
+          
+            <a href="https://wa.me/+971582236678" title="Whatsapp" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp/>
-            </a>
-            <a href="https://t.me/jeanclaudeaoun" title="Telegram" target="_blank" rel="noopener noreferrer">
-              <FaTelegramPlane />
-            </a>
-            <a  href="tel:+96171220083" title="Phone" >
-              <FaPhone />
             </a>
             <a href="mailto:sales@jaydaryn.com" title="Email">
               <FaEnvelope/>
+            </a>
+            <a style={{display:'flex', align:'center'}} href="https://calendly.com/jeanclaudeaoun" title="Calendly" target="_blank" rel="noopener noreferrer">
+            <FaVideo/> &nbsp;&nbsp;<p style={{fontFamily:'monospace', textDecoration:'underline'}}> Schedule a Call ▸ </p>
             </a>
           </div>
         </div>
@@ -76,23 +75,23 @@ const App = () => {
         
         <div className="social">
           <a href="https://www.facebook.com/JayDarynCreativeTechnologies/" title="Facebook" target="_blank" rel="noopener noreferrer">
-            <FaFacebookF />
+            <FaFacebookF size={20}/>
           </a>
           <a href="https://www.instagram.com/jaydaryncreativetechnologies/" title="Instagram" target="_blank" rel="noopener noreferrer">
-            <FaInstagram />
+            <FaInstagram size={20} />
           </a>
-          <a href="https://www.linkedin.com/company/jaydaryn/" title="Linkedin" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://www.linkedin.com/company/jaydaryn/" title="Linkedin" target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn />
-          </a>
+          </a> */}
           <a href="https://twitter.com/jaydaryn" title="Twitter" target="_blank" rel="noopener noreferrer">
-            <FaTwitter />
+            <FaTwitter size={20}/>
           </a>
           <a href="https://www.youtube.com/channel/UCRt536cOsGmYAOqpvU4LYFQ" title="Youtube" target="_blank" rel="noopener noreferrer">
-            <FaYoutube />
+            <FaYoutube size={20}/>
           </a>
-          <a href="https://github.com/jaydaryn" title="GitHub" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://github.com/jaydaryn" title="GitHub" target="_blank" rel="noopener noreferrer">
             <FaGithub />
-          </a>
+          </a> */}
           
         </div>
         <div>
