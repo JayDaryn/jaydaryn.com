@@ -18,7 +18,6 @@ const AndThisNFTProvesIt = () => {
 					You can change your Life Today and confidently say "I Am Ridiculously Rich" and I have an NFT to prove it! <br/>
 					"I Am Smarter Than Elon Musk" OR "I Am Flyer Than Snoop Dogg" and this NFT proves it.<br/>
 					Or Even DARE to come out and say "I Put Pineapple On Pizza" and this NFT proves it. <br/>
-					
 					<Modal
 						onClose={() => setOpen(false)}
 						onOpen={() => setOpen(true)}
