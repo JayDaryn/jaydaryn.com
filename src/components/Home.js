@@ -11,7 +11,7 @@ const Home = () => (
       The #1 Web3.0 Initiative ✨ Blockchain Community Hackerspace in Dubai ✨ 
       </p> 
      
-      <p style={{fontFamily:'ubuntu', padding:5, fontSize:'1.5em', textAlign:'center', width:'90%', maxWidth:'1100px'}}>
+      <p style={{padding:5, fontSize:'1.5em', textAlign:'center', width:'90%', maxWidth:'1100px'}}>
       Our mission is to advocate the power and importance of decentralization through blockchain technology by bringing industry leaders, techies, entrepreneurs, decision-makers, startups, and experts togeather in one room with free coffee ☕️  and pizza 🍕
     </p>
     <hr width="220px"/>
