@@ -8,7 +8,7 @@ const Footer = () => {
 	return(
 		<div className="footer">
         <div>
-					<a style={{fontSize:'1.3em'}}  href="https://calendly.com/jeanclaudeaoun" target="_blank" rel="noopener noreferrer">Become a Sponsor 💸</a>
+					<a style={{fontSize:'1.3em'}}  href="https://www.canva.com/design/DAFJVXpFjLk/7zOlmtVLF90buO_3iHEP3g/view?website#2:prepared-by-jeanclaude-aoun" target="_blank" rel="noopener noreferrer">Become a Sponsor 💸</a>
         </div>
 
         <div>
