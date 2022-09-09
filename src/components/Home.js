@@ -22,7 +22,7 @@ const Home = () => (
   
    
   <div style={{display:"flex"}}>
-    <a href="https://jaydaryn.notion.site/WhitePaper-2ac264b8e8184d8f8e7cfb78ff590cf4" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.canva.com/design/DAFLxVqWyr0/toIDw5gVYdzX9nP7AXAaEg/view?website#2" target="_blank" rel="noopener noreferrer">
       <div  className="button1">Learn More 👀 </div>
     </a>
     <Link to="JoinOurCommunity">
