@@ -24,8 +24,8 @@ const App = () => {
       <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="AndThisNFTProvesIt" element={<AndThisNFTProvesIt />} />
-            <Route path="JoinOurCommunity" element={<JoinOurCommunity />} />
+            {/* <Route path="AndThisNFTProvesIt" element={<AndThisNFTProvesIt />} />
+            <Route path="JoinOurCommunity" element={<JoinOurCommunity />} /> */}
             <Route path="*" element={<Navigate to='/' />} />
           </Routes>
       </div>

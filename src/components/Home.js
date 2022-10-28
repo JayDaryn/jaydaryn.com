@@ -7,13 +7,13 @@ const Home = () => (
 	<div style={{display:'flex', flexDirection: 'column', alignItems:'center',color:'#f0fbff' }}>
        
     <img src={logo} alt="logo" style={{width:'80%', maxWidth:'800px'}}/> 
-    <p style={{fontFamily:'monospace', padding:5, fontSize:'1.1em', textAlign:'center', paddingBottom:30}}>
+    {/* <p style={{fontFamily:'monospace', padding:5, fontSize:'1.1em', textAlign:'center', paddingBottom:30}}>
       The #1 Web3.0 Initiative ✨ Blockchain Community Hackerspace in Dubai ✨ 
       </p> 
      
       <p style={{padding:5, fontSize:'1.5em', textAlign:'center', width:'90%', maxWidth:'1100px'}}>
       Our mission is to advocate the power and importance of decentralization through blockchain technology by bringing industry leaders, techies, entrepreneurs, decision-makers, startups, and experts togeather in one room with free coffee ☕️  and pizza 🍕
-    </p>
+    </p> */}
     <hr width="220px"/>
     <p style={{color:'white', textAlign:'center',  fontSize:'1.4em', lineHeight:'1.3', paddingBottom:30}}>
       Make ideas happen 🚀 
@@ -25,9 +25,9 @@ const Home = () => (
     <a href="https://www.canva.com/design/DAFLxVqWyr0/toIDw5gVYdzX9nP7AXAaEg/view?website#2" target="_blank" rel="noopener noreferrer">
       <div  className="button1">Learn More 👀 </div>
     </a>
-    <Link to="JoinOurCommunity">
+    <a href="https://chat.whatsapp.com/B6bopI1UL0y5Ykom4T6kTo" target="_blank" rel="noopener noreferrer">
       <div  className="button1" style={{background:'#BAE8E8',color:'#093145'}}>Join Our Community 👾</div>
-    </Link>
+    </a>
   </div>
   </div>
 )
