@@ -16,7 +16,7 @@ const Header = () => {
 	<div className="header">
 	<div>
 		{location.pathname === '/' ? (
-			<p>EVENTS | WORKSHOPS | MEETUPS | HACKATHONS | BOOTCAMPS | DUBAI <br/> WEB3.0 | BLOCKCHAIN | NFTs | CRYPTO | METAVERSE <br/> JAYDARYN - MAKE IDEAS HAPPEN 🚀</p>
+			<p>EVENTS | WORKSHOPS | MEETUPS | HACKATHONS | BOOTCAMPS | DUBAI <br/> WEB3.0 | BLOCKCHAIN | NFTs | CRYPTO | METAVERSE <br/> TECH ADVISORS | CONSULTING</p>
 		) : (
 			<div style={{cursor:'pointer', display:'flex', alignItems:'center'}} onClick={()=>{navigate("/")}}>  <FaArrowLeft style={{margin:'9px'}} /> <img src={logo} alt="logo" style={{width:'150px'}}/> </div>
 		)}
